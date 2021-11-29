@@ -6,10 +6,10 @@ from selenium.webdriver.common.keys import Keys
 import random as random
 import emoji as emoji
 
-url = 'https://www.instagram.com/p/CW2pyQOK695/'
-username = 'max_mnemo'
-password = ''
-driver = webdriver.Chrome('/Users/wiifreaki/Desktop/chromedriver-1')
+url = 'YOUR_URL_HERE'
+username = 'YOUR_USERNAME_HERE'
+password = 'YOUR_PASSWORD'
+driver = webdriver.Chrome('PATH/TO/YOUR/CHROMEDRIVER')
 
 
 def login():
