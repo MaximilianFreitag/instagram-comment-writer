@@ -4,7 +4,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import random as random
-import emoji as emoji
+
 
 url = 'YOUR_URL_HERE'
 username = 'YOUR_USERNAME_HERE'
