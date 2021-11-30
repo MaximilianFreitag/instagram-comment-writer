@@ -61,9 +61,11 @@ def comment():
     random_number3 = random.randint(1,10)
     #choose a random +,-,*,/ for the random numbers
     random_operator = random.choice(['+','-','*','/'])
-    result = eval(str(random_number1) + random_operator + str(random_number2) + random_operator + str(random_number3)) 
-    
-    message = str(random_number1) + str(random_operator) + str(random_number2) + str(random_operator) + str(random_number3) + '=' + str(result)  
+    random_operator2 = random.choice(['+','-','*','/'])
+    result = eval(str(random_number1) + random_operator + str(random_number2) + random_operator2 + str(random_number3)) 
+    #round result to 2 decimal places
+    result2 = round(result,2)
+    message = str(random_number1) + str(random_operator) + str(random_number2) + str(random_operator2) + str(random_number3) + '=' + str(result2)  
     #send message in the textarea
     driver.find_element_by_xpath(xpath7).send_keys(message)
 
