@@ -20,6 +20,17 @@ Currently the scripts will simply write math equations as the content but you ca
 ______________________________________________________________________________________________
 <br>  
 
+<!-- What versions were used? -->
+## What versions were used?
+
+I used the chromedriver version 96 on the MacOS High Sierra version 10.13.6 on an iMac.     
+
+
+
+<br> 
+______________________________________________________________________________________________
+<br>  
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
