@@ -82,8 +82,8 @@ def comment():
 
 login()
 
-#infinite loop with 60 seconds pause in between each comment
 
+#infinite loop with 60 seconds pause in between each comment
 while True:
 
     def write():
