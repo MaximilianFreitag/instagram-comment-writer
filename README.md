@@ -1,7 +1,7 @@
 ## Send automatic messages under a post on instagram
 
-Instagram will rate limit you after some time. From there on you can only post 1 comment every 40 seconds
-Currently the scripts will simply write math equations as the content but you can change this in the function called comment.
+Instagram will rate limit you after some time. Expect to write around 1k comments within 9 hours.
+Currently the script will simply write math equations as the content but you can change this in the function called comment.
 
 <br> 
 
