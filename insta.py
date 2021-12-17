@@ -10,7 +10,7 @@ import random as random
 url = 'YOUR_URL_HERE'
 username = 'YOUR_USERNAME_HERE'
 password = 'YOUR_PASSWORD'
-driver = webdriver.Chrome('PATH/TO/YOUR/CHROMEDRIVER')
+driver = webdriver.Chrome('/PATH/TO/YOUR/CHROMEDRIVER')
 message = 'YOUR_COMMENT_HERE'
 
 
