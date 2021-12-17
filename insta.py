@@ -6,6 +6,7 @@ from selenium.webdriver.common.keys import Keys
 import random as random
 
 
+#You have to fill in these data. The script takes care of the rest
 url = 'YOUR_URL_HERE'
 username = 'YOUR_USERNAME_HERE'
 password = 'YOUR_PASSWORD'
