@@ -10,6 +10,8 @@ url = 'YOUR_URL_HERE'
 username = 'YOUR_USERNAME_HERE'
 password = 'YOUR_PASSWORD'
 driver = webdriver.Chrome('PATH/TO/YOUR/CHROMEDRIVER')
+message = 'YOUR_COMMENT_HERE'
+
 
 
 def login():
@@ -37,6 +39,7 @@ def login():
     driver.find_element_by_xpath(xpath5).click()
     
     
+    
     #Switches to the url
     driver.get(url)
     time.sleep(4)
@@ -51,6 +54,7 @@ def comment():
     time.sleep(2)
     
     
+    '''
     #generates 3 integers and does a little bit of math
     random_number1 = random.randint(1,1000)
     random_number2 = random.randint(1,1000)
@@ -61,11 +65,10 @@ def comment():
     result = eval(str(random_number1) + random_operator + str(random_number2) + random_operator2 + str(random_number3)) 
     #round result to 2 decimal places
     result2 = round(result,2)
+    message = str(random_number1) + str(random_operator) + str(random_number2) + str(random_operator2) + str(random_number3) + '=' + str(result2) 
+    '''
     
-    
-    #Your message
-    message = str(random_number1) + str(random_operator) + str(random_number2) + str(random_operator2) + str(random_number3) + '=' + str(result2)  
-    #send message in the textarea
+    #Writes the comment under the post
     driver.find_element_by_xpath(xpath7).send_keys(message)
     time.sleep(4)
     xpath8 = '//*[@id="react-root"]/section/main/div/div[1]/article/div/div[2]/div/div[2]/section[3]/div/form/button[2]'
