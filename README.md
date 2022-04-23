@@ -25,6 +25,7 @@ ________________________________________________________________________________
 
 4. Run the python script 
    
+<br>    
    
 ______________________________________________________________________________________________
 <br> 
@@ -48,7 +49,8 @@ ________________________________________________________________________________
 <!-- What versions were used? -->
 ## What versions were used?
 
-I used the chromedriver version 96 on MacOS High Sierra version 10.13.6 (iMac). I do not know if the script works for windows user.   
+I used the chromedriver version 96 on MacOS High Sierra version 10.13.6 (iMac). I do not know if the script works for windows user.
+Python 3+
 
 
 
