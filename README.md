@@ -5,6 +5,29 @@ Currently the script will simply write math equations as the content but you can
 
 <br> 
 
+______________________________________________________________________________________________
+<br>  
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+
+1. git clone this repo in your terminal
+   ```sh
+   git clone https://github.com/MaximilianFreitag/instagram-comment-writer-requests.git
+   ```
+
+2. Open the file in your text editor
+   
+3. Type in your username, the password, the path to your chromedriver and the URL of the post you want to writer under into the script and save it (Everything in all caps)
+
+4. Run the python script 
+   
+   
+______________________________________________________________________________________________
+<br> 
+
+
 <!-- Requirements -->
 ## Requirements
 
@@ -26,26 +49,6 @@ ________________________________________________________________________________
 I used the chromedriver version 96 on MacOS High Sierra version 10.13.6 (iMac). I do not know if the script works for windows user.   
 
 
-
-<br> 
-______________________________________________________________________________________________
-<br>  
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-
-1. git clone this repo in your terminal
-   ```sh
-   git clone https://github.com/MaximilianFreitag/instagram-comment-writer-requests.git
-   ```
-
-2. Open the file in your text editor
-   
-3. Type in your username, the password, the path to your chromedriver and the URL of the post you want to writer under into the script and save it (Everything in all caps)
-
-4. Run the python script 
-   
 
 
 <br> 
