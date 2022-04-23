@@ -3,6 +3,8 @@
 Instagram will rate limit you after some time. Expect to write around 1k comments within 9 hours.
 Currently the script will simply write math equations as the content but you can change this in the function called comment.
 
+Here is an example of me solving 2673 math problems under [one of my posts](https://www.instagram.com/p/CW3yyC_s1uo/?utm_source=ig_web_copy_link)
+
 <br> 
 
 ______________________________________________________________________________________________
